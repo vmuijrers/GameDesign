@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Head
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Slot
+  - HorseSlot
+  - Character
+  - PostProcessing
+  - Collision
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Trees
+    uniqueID: 2886125531
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: SleeAchter
+    uniqueID: 2741246039
+    locked: 0
+  - name: Character
+    uniqueID: 2709559843
+    locked: 0
+  - name: SleeVoor
+    uniqueID: 3758072085
+    locked: 0
+  - name: UI
+    uniqueID: 571006805
+    locked: 0
