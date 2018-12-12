@@ -15,15 +15,19 @@ public class OrbSpawner : MonoBehaviour {
     public Text text;
     int score = 0;
     private float currentTimer = 0;
+
+    private Material mat;
 	// Use this for initialization
 	void Start () {
+        mat = GetComponentInChildren<MeshRenderer>().material;
         Respawn();
     }
 	
 	// Update is called once per frame
 	void Update () {
         currentTimer -= Time.deltaTime;
-        if(currentTimer <= 0)
+        mat.color = Color.Lerp(Color.red, Color.green, currentTimer / maxTimer);
+        if (currentTimer <= 0)
         {
             Respawn();
         }

@@ -543,7 +543,7 @@ Prefab:
     - target: {fileID: 114772501712225528, guid: e1c1b5d9fdd5d584d8570d5f180ac4d9,
         type: 2}
       propertyPath: gravityAmount
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114772501712225528, guid: e1c1b5d9fdd5d584d8570d5f180ac4d9,
         type: 2}
