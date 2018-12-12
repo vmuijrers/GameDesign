@@ -51,7 +51,7 @@ public class OrbSpawner : MonoBehaviour {
         currentTimer = maxTimer;
         Vector3 rayCastPoint=ObjecToFollow.transform.position + (new Vector3(Random.Range(-1,1),0,Random.Range(-1,1))).normalized * spawnDistanceFromPlayer + new Vector3(0,40,0);
         RaycastHit hit;
-        if (Physics.Raycast(rayCastPoint, -Vector3.up,out hit,100, layerMask))
+        if (Physics.Raycast(rayCastPoint, -Vector3.up,out hit,140, layerMask))
         {
             AudioSource.PlayClipAtPoint(spawnSounds[Random.Range(0, pickupSounds.Length)], transform.position);
             transform.position = hit.point;
