@@ -5,24 +5,27 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     [Header("References")]
-    public GameObject camera;
+    private GameObject camera;
 
     [Header("CollisionSettings")]
     public LayerMask worldMask;
-    public float rayCastToGround = 0.05f;
+
+    private float rayCastToGround = 0.05f;
+
     [Header("Movement Settings")]
     public AnimationCurve speedCurve;
-    public float timeToTopSpeed = 10f;
+    public float timeToTopSpeed;
+    public Vector3 jumpVelocity = new Vector3(0, 1, 0);
+
     private float height = 1.4f;
     private float radius = 0.25f;
     private float offSet = 0.1f;
 
-    public Vector3 jumpVelocity = new Vector3(0,6,3);
     [Tooltip("This is a percentage that the velocity loses per frame")]
-    public float noMoveFriction = 0.95f;
-    public float maxSpeed = 6f;
-    public int numDoubleJumps = 2;
-    public float gravityAmount = 10f;
+    public float noMoveFriction;
+    public float maxSpeed;
+    public int numDoubleJumps;
+    public float gravityAmount;
 
     [Header("Camera Settings")]
     public float sensitivityX = 15;
@@ -55,6 +58,7 @@ public class PlayerController : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody>();
         characterController = GetComponent<CharacterController>();
+        camera = GetComponentInChildren<Camera>().gameObject;
     }
 
     // Use this for initialization
@@ -67,38 +71,17 @@ public class PlayerController : MonoBehaviour {
 
         float vert = Input.GetAxis("Vertical");
         float hor = Input.GetAxis("Horizontal");
-        //Grounded = Physics.CheckSphere(transform.position + transform.up * (radius- rayCastToGround), radius, worldMask);
         Grounded = characterController.isGrounded;
-        //Step Height
         float rayDistance = radius + 0.1f;
-        float stepHeight = 0.2f;
-        //if (Physics.Raycast(transform.position + transform.up * stepHeight, transform.forward, rayDistance, worldMask))
-        //{
-            //Debug.Log("Hit");
-            //Debug.DrawLine(transform.position + transform.forward * rayDistance + transform.up * stepHeight, transform.position + transform.forward * rayDistance + transform.up * stepHeight - transform.up);
-            //RaycastHit hit;
-            //if (Physics.Raycast(transform.position + transform.forward * rayDistance + transform.up * stepHeight, -transform.up, out hit, stepHeight, worldMask)&&
-            //    vert != 0)
-            //{
-            //    transform.position = Vector3.MoveTowards(transform.position, hit.point, velocity.magnitude *Time.deltaTime);
-            //    Debug.Log("Step!");
-            //}
-            //else
-            //{
             
-            bool collisionWithWall = Physics.CheckCapsule(velocity.normalized * offSet + transform.position + transform.up * (radius), velocity.normalized * offSet + transform.position + transform.up * (height - radius), radius, worldMask);
+        bool collisionWithWall = Physics.CheckCapsule(velocity.normalized * offSet + transform.position + transform.up * (radius), velocity.normalized * offSet + transform.position + transform.up * (height - radius), radius, worldMask);
 
-            if (collisionWithWall)
-            {
-                Debug.Log("Colliding with wall!");
-                velocity = new Vector3(0, velocity.y, 0);
-                speedModifier = Mathf.Min(speedModifier, 0.1f);
-            }
-        //}
-    
-       
-
-
+        if (collisionWithWall)
+        {
+            Debug.Log("Colliding with wall!");
+            velocity = new Vector3(0, velocity.y, 0);
+            speedModifier = Mathf.Min(speedModifier, 0.1f);
+        }
         //Apply forward velocity
         if(vert != 0 || hor != 0)
         {
@@ -142,8 +125,8 @@ public class PlayerController : MonoBehaviour {
         camera.transform.localRotation = Quaternion.Euler(-camAngleY, 0, 0);
 
         transform.rotation = Quaternion.Euler(0, camAngleX, 0);
-
     }
+
     private void OnBecomeGrounded()
     {
         if (velocity.y <= 0)
@@ -156,13 +139,11 @@ public class PlayerController : MonoBehaviour {
     private void FixedUpdate()
     {
         characterController.Move(velocity *Time.deltaTime);
-        //rb.velocity = new Vector3(velocity.x, velocity.y, velocity.z);
     }
 
     void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(velocity.normalized * offSet + transform.position + transform.up * (radius), radius);
         Gizmos.DrawWireSphere(velocity.normalized * offSet + transform.position + transform.up * (height - radius), radius);
-        
     }
 }

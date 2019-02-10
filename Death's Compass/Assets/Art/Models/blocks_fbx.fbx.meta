@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: 37a6ef7523a59754f888fa9cd4cd4fe3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Balcony
+    100004: Bridge
+    100006: Bridge Start
+    100008: Bridge Wall
+    100010: Enclosed Stairs
+    100012: Enclosed Stairs Ceiling
+    100014: Enclosed Stairs Entrance Upper
+    100016: Enclosed Stairs Entrance Upper 2
+    100018: Enclosed Stairs Entrance Upper 2 Steps
+    100020: Enclosed Stairs Entrance Upper 3
+    100022: Enclosed Stairs Lower
+    100024: Floor
+    100026: HH Stairs Corner Collider
+    100028: High Wall
+    100030: High Wall Clock
+    100032: High Wall Clock Hours
+    100034: High Wall Clock Minutes
+    100036: High Wall Corner
+    100038: Pillars
+    100040: Pillars Corner
+    100042: Pillars Corner 2
+    100044: Railing
+    100046: Railing Corner
+    100048: Railing Corner 2
+    100050: Railing Pillars
+    100052: Railing Pillars 2
+    100054: Railing Wall
+    100056: Railing Wall 2
+    100058: Railing Wall 3
+    100060: Railing Wall 4
+    100062: Rig
+    100064: Roof 2
+    100066: Roof 2 Corner
+    100068: Roof 2 Corner 2
+    100070: Roof 2 Corner Collider
+    100072: Roof 2 Floor
+    100074: Roof 2 Floor Corner
+    100076: Roof 2 Floor Corner 2
+    100078: Roof 2 Floor Wall
+    100080: Roof 2 Floor Wall M
+    100082: Roof 2 Tiles Prototype.001
+    100084: Roof 2 Tiles Prototype.002
+    100086: Roof 2 Top
+    100088: Roof 2 Top 2
+    100090: Roof 2 Top 2 Collider
+    100092: Roof 2 Top 3
+    100094: Roof 2 Top 3 Collider
+    100096: Roof 2 Top 4
+    100098: Roof 2 Top 4 Collider
+    100100: Roof 2 Top Collider
+    100102: Roof 2 Top Wall
+    100104: Roof 2 Upper Corner
+    100106: Roof 2 Upper Corner 2
+    100108: Roof 2 Upper Roof
+    100110: Roof 2 Upper Roof Wall
+    100112: Roof 2 Upper Roof Wall M
+    100114: Roof 2 Wall
+    100116: Roof 2 Wall Corner
+    100118: Roof 2 Wall Corner 2
+    100120: Roof 2 Wall M
+    100122: Roof Corner
+    100124: Roof Corner 2
+    100126: Roof End
+    100128: Roof Side
+    100130: Roof Single
+    100132: Roof Single Collider
+    100134: Solid
+    100136: Spiral Stairs
+    100138: Spiral Stairs Bow
+    100140: Spiral Stairs Bow 2
+    100142: Spiral Stairs Bow 2 M
+    100144: Spiral Stairs Bow M
+    100146: Spiral Stairs Collider
+    100148: Spiral Stairs Collider M
+    100150: Spiral Stairs Entrance
+    100152: Spiral Stairs Entrance 2
+    100154: Spiral Stairs Entrance 2 M
+    100156: Spiral Stairs Entrance M
+    100158: Spiral Stairs M
+    100160: Spiral Stairs Railing
+    100162: Spiral Stairs Railing M
+    100164: Stairs
+    100166: Stairs Bottom
+    100168: Stairs Collider
+    100170: Stairs Railing Collider
+    100172: Stairs Top
+    100174: Tunnel
+    100176: Tunnel Corner
+    100178: Wall
+    100180: Wall Bench
+    100182: Wall Corner
+    100184: Wall Corner 2
+    100186: Wall Corner 2 Tunnel
+    100188: Wall Corner 2 Tunnel M
+    100190: Wall Corner Fountain
+    100192: Wall Corner.001
+    100194: Wall Corner.002
+    100196: Wall Cornrer Fountain Collider
+    100198: Wall Door
+    100200: Wall Stairs
+    100202: Wall Stairs M
+    100204: Wall Stairs Railing
+    100206: Wall Stairs Railing 2
+    100208: Wall Stairs Railing M
+    100210: Wall Stairs Railing M 2
+    100212: Wall Stairs Railing Up
+    100214: Wall Stairs Railing Up M
+    100216: Wall Stairs Up
+    100218: Wall Stairs Up M
+    100220: Wall with Roof
+    100222: Wall with Roof 2
+    100224: Wall with Roof 3
+    100226: Wall with Roof Adapter
+    100228: Wall with Roof Adapter 2
+    100230: Water Fountain
+    100232: Water Fountain Collider
+    400000: //RootNode
+    400002: Balcony
+    400004: Bridge
+    400006: Bridge Start
+    400008: Bridge Wall
+    400010: Enclosed Stairs
+    400012: Enclosed Stairs Ceiling
+    400014: Enclosed Stairs Entrance Upper
+    400016: Enclosed Stairs Entrance Upper 2
+    400018: Enclosed Stairs Entrance Upper 2 Steps
+    400020: Enclosed Stairs Entrance Upper 3
+    400022: Enclosed Stairs Lower
+    400024: Floor
+    400026: HH Stairs Corner Collider
+    400028: High Wall
+    400030: High Wall Clock
+    400032: High Wall Clock Hours
+    400034: High Wall Clock Minutes
+    400036: High Wall Corner
+    400038: Pillars
+    400040: Pillars Corner
+    400042: Pillars Corner 2
+    400044: Railing
+    400046: Railing Corner
+    400048: Railing Corner 2
+    400050: Railing Pillars
+    400052: Railing Pillars 2
+    400054: Railing Wall
+    400056: Railing Wall 2
+    400058: Railing Wall 3
+    400060: Railing Wall 4
+    400062: Rig
+    400064: Roof 2
+    400066: Roof 2 Corner
+    400068: Roof 2 Corner 2
+    400070: Roof 2 Corner Collider
+    400072: Roof 2 Floor
+    400074: Roof 2 Floor Corner
+    400076: Roof 2 Floor Corner 2
+    400078: Roof 2 Floor Wall
+    400080: Roof 2 Floor Wall M
+    400082: Roof 2 Tiles Prototype.001
+    400084: Roof 2 Tiles Prototype.002
+    400086: Roof 2 Top
+    400088: Roof 2 Top 2
+    400090: Roof 2 Top 2 Collider
+    400092: Roof 2 Top 3
+    400094: Roof 2 Top 3 Collider
+    400096: Roof 2 Top 4
+    400098: Roof 2 Top 4 Collider
+    400100: Roof 2 Top Collider
+    400102: Roof 2 Top Wall
+    400104: Roof 2 Upper Corner
+    400106: Roof 2 Upper Corner 2
+    400108: Roof 2 Upper Roof
+    400110: Roof 2 Upper Roof Wall
+    400112: Roof 2 Upper Roof Wall M
+    400114: Roof 2 Wall
+    400116: Roof 2 Wall Corner
+    400118: Roof 2 Wall Corner 2
+    400120: Roof 2 Wall M
+    400122: Roof Corner
+    400124: Roof Corner 2
+    400126: Roof End
+    400128: Roof Side
+    400130: Roof Single
+    400132: Roof Single Collider
+    400134: Solid
+    400136: Spiral Stairs
+    400138: Spiral Stairs Bow
+    400140: Spiral Stairs Bow 2
+    400142: Spiral Stairs Bow 2 M
+    400144: Spiral Stairs Bow M
+    400146: Spiral Stairs Collider
+    400148: Spiral Stairs Collider M
+    400150: Spiral Stairs Entrance
+    400152: Spiral Stairs Entrance 2
+    400154: Spiral Stairs Entrance 2 M
+    400156: Spiral Stairs Entrance M
+    400158: Spiral Stairs M
+    400160: Spiral Stairs Railing
+    400162: Spiral Stairs Railing M
+    400164: Stairs
+    400166: Stairs Bottom
+    400168: Stairs Collider
+    400170: Stairs Railing Collider
+    400172: Stairs Top
+    400174: Tunnel
+    400176: Tunnel Corner
+    400178: Wall
+    400180: Wall Bench
+    400182: Wall Corner
+    400184: Wall Corner 2
+    400186: Wall Corner 2 Tunnel
+    400188: Wall Corner 2 Tunnel M
+    400190: Wall Corner Fountain
+    400192: Wall Corner.001
+    400194: Wall Corner.002
+    400196: Wall Cornrer Fountain Collider
+    400198: Wall Door
+    400200: Wall Stairs
+    400202: Wall Stairs M
+    400204: Wall Stairs Railing
+    400206: Wall Stairs Railing 2
+    400208: Wall Stairs Railing M
+    400210: Wall Stairs Railing M 2
+    400212: Wall Stairs Railing Up
+    400214: Wall Stairs Railing Up M
+    400216: Wall Stairs Up
+    400218: Wall Stairs Up M
+    400220: Wall with Roof
+    400222: Wall with Roof 2
+    400224: Wall with Roof 3
+    400226: Wall with Roof Adapter
+    400228: Wall with Roof Adapter 2
+    400230: Water Fountain
+    400232: Water Fountain Collider
+    2100000: No Name
+    2300000: Balcony
+    2300002: Bridge
+    2300004: Bridge Start
+    2300006: Bridge Wall
+    2300008: Enclosed Stairs
+    2300010: Enclosed Stairs Ceiling
+    2300012: Enclosed Stairs Entrance Upper
+    2300014: Enclosed Stairs Entrance Upper 2
+    2300016: Enclosed Stairs Entrance Upper 2 Steps
+    2300018: Enclosed Stairs Entrance Upper 3
+    2300020: Enclosed Stairs Lower
+    2300022: Floor
+    2300024: HH Stairs Corner Collider
+    2300026: High Wall
+    2300028: High Wall Clock
+    2300030: High Wall Clock Hours
+    2300032: High Wall Clock Minutes
+    2300034: High Wall Corner
+    2300036: Pillars
+    2300038: Pillars Corner
+    2300040: Pillars Corner 2
+    2300042: Railing
+    2300044: Railing Corner
+    2300046: Railing Corner 2
+    2300048: Railing Pillars
+    2300050: Railing Pillars 2
+    2300052: Railing Wall
+    2300054: Railing Wall 2
+    2300056: Railing Wall 3
+    2300058: Railing Wall 4
+    2300060: Rig
+    2300062: Roof 2
+    2300064: Roof 2 Corner
+    2300066: Roof 2 Corner 2
+    2300068: Roof 2 Corner Collider
+    2300070: Roof 2 Floor
+    2300072: Roof 2 Floor Corner
+    2300074: Roof 2 Floor Corner 2
+    2300076: Roof 2 Floor Wall
+    2300078: Roof 2 Floor Wall M
+    2300080: Roof 2 Tiles Prototype.001
+    2300082: Roof 2 Tiles Prototype.002
+    2300084: Roof 2 Top
+    2300086: Roof 2 Top 2
+    2300088: Roof 2 Top 2 Collider
+    2300090: Roof 2 Top 3
+    2300092: Roof 2 Top 3 Collider
+    2300094: Roof 2 Top 4
+    2300096: Roof 2 Top 4 Collider
+    2300098: Roof 2 Top Collider
+    2300100: Roof 2 Top Wall
+    2300102: Roof 2 Upper Corner
+    2300104: Roof 2 Upper Corner 2
+    2300106: Roof 2 Upper Roof
+    2300108: Roof 2 Upper Roof Wall
+    2300110: Roof 2 Upper Roof Wall M
+    2300112: Roof 2 Wall
+    2300114: Roof 2 Wall Corner
+    2300116: Roof 2 Wall Corner 2
+    2300118: Roof 2 Wall M
+    2300120: Roof Corner
+    2300122: Roof Corner 2
+    2300124: Roof End
+    2300126: Roof Side
+    2300128: Roof Single
+    2300130: Roof Single Collider
+    2300132: Solid
+    2300134: Spiral Stairs
+    2300136: Spiral Stairs Bow
+    2300138: Spiral Stairs Bow 2
+    2300140: Spiral Stairs Bow 2 M
+    2300142: Spiral Stairs Bow M
+    2300144: Spiral Stairs Collider
+    2300146: Spiral Stairs Collider M
+    2300148: Spiral Stairs Entrance
+    2300150: Spiral Stairs Entrance 2
+    2300152: Spiral Stairs Entrance 2 M
+    2300154: Spiral Stairs Entrance M
+    2300156: Spiral Stairs M
+    2300158: Spiral Stairs Railing
+    2300160: Spiral Stairs Railing M
+    2300162: Stairs
+    2300164: Stairs Bottom
+    2300166: Stairs Collider
+    2300168: Stairs Railing Collider
+    2300170: Stairs Top
+    2300172: Tunnel
+    2300174: Tunnel Corner
+    2300176: Wall
+    2300178: Wall Bench
+    2300180: Wall Corner
+    2300182: Wall Corner 2
+    2300184: Wall Corner 2 Tunnel
+    2300186: Wall Corner 2 Tunnel M
+    2300188: Wall Corner Fountain
+    2300190: Wall Corner.001
+    2300192: Wall Corner.002
+    2300194: Wall Cornrer Fountain Collider
+    2300196: Wall Door
+    2300198: Wall Stairs
+    2300200: Wall Stairs M
+    2300202: Wall Stairs Railing
+    2300204: Wall Stairs Railing 2
+    2300206: Wall Stairs Railing M
+    2300208: Wall Stairs Railing M 2
+    2300210: Wall Stairs Railing Up
+    2300212: Wall Stairs Railing Up M
+    2300214: Wall Stairs Up
+    2300216: Wall Stairs Up M
+    2300218: Wall with Roof
+    2300220: Wall with Roof 2
+    2300222: Wall with Roof 3
+    2300224: Wall with Roof Adapter
+    2300226: Wall with Roof Adapter 2
+    2300228: Water Fountain
+    2300230: Water Fountain Collider
+    3300000: Balcony
+    3300002: Bridge
+    3300004: Bridge Start
+    3300006: Bridge Wall
+    3300008: Enclosed Stairs
+    3300010: Enclosed Stairs Ceiling
+    3300012: Enclosed Stairs Entrance Upper
+    3300014: Enclosed Stairs Entrance Upper 2
+    3300016: Enclosed Stairs Entrance Upper 2 Steps
+    3300018: Enclosed Stairs Entrance Upper 3
+    3300020: Enclosed Stairs Lower
+    3300022: Floor
+    3300024: HH Stairs Corner Collider
+    3300026: High Wall
+    3300028: High Wall Clock
+    3300030: High Wall Clock Hours
+    3300032: High Wall Clock Minutes
+    3300034: High Wall Corner
+    3300036: Pillars
+    3300038: Pillars Corner
+    3300040: Pillars Corner 2
+    3300042: Railing
+    3300044: Railing Corner
+    3300046: Railing Corner 2
+    3300048: Railing Pillars
+    3300050: Railing Pillars 2
+    3300052: Railing Wall
+    3300054: Railing Wall 2
+    3300056: Railing Wall 3
+    3300058: Railing Wall 4
+    3300060: Rig
+    3300062: Roof 2
+    3300064: Roof 2 Corner
+    3300066: Roof 2 Corner 2
+    3300068: Roof 2 Corner Collider
+    3300070: Roof 2 Floor
+    3300072: Roof 2 Floor Corner
+    3300074: Roof 2 Floor Corner 2
+    3300076: Roof 2 Floor Wall
+    3300078: Roof 2 Floor Wall M
+    3300080: Roof 2 Tiles Prototype.001
+    3300082: Roof 2 Tiles Prototype.002
+    3300084: Roof 2 Top
+    3300086: Roof 2 Top 2
+    3300088: Roof 2 Top 2 Collider
+    3300090: Roof 2 Top 3
+    3300092: Roof 2 Top 3 Collider
+    3300094: Roof 2 Top 4
+    3300096: Roof 2 Top 4 Collider
+    3300098: Roof 2 Top Collider
+    3300100: Roof 2 Top Wall
+    3300102: Roof 2 Upper Corner
+    3300104: Roof 2 Upper Corner 2
+    3300106: Roof 2 Upper Roof
+    3300108: Roof 2 Upper Roof Wall
+    3300110: Roof 2 Upper Roof Wall M
+    3300112: Roof 2 Wall
+    3300114: Roof 2 Wall Corner
+    3300116: Roof 2 Wall Corner 2
+    3300118: Roof 2 Wall M
+    3300120: Roof Corner
+    3300122: Roof Corner 2
+    3300124: Roof End
+    3300126: Roof Side
+    3300128: Roof Single
+    3300130: Roof Single Collider
+    3300132: Solid
+    3300134: Spiral Stairs
+    3300136: Spiral Stairs Bow
+    3300138: Spiral Stairs Bow 2
+    3300140: Spiral Stairs Bow 2 M
+    3300142: Spiral Stairs Bow M
+    3300144: Spiral Stairs Collider
+    3300146: Spiral Stairs Collider M
+    3300148: Spiral Stairs Entrance
+    3300150: Spiral Stairs Entrance 2
+    3300152: Spiral Stairs Entrance 2 M
+    3300154: Spiral Stairs Entrance M
+    3300156: Spiral Stairs M
+    3300158: Spiral Stairs Railing
+    3300160: Spiral Stairs Railing M
+    3300162: Stairs
+    3300164: Stairs Bottom
+    3300166: Stairs Collider
+    3300168: Stairs Railing Collider
+    3300170: Stairs Top
+    3300172: Tunnel
+    3300174: Tunnel Corner
+    3300176: Wall
+    3300178: Wall Bench
+    3300180: Wall Corner
+    3300182: Wall Corner 2
+    3300184: Wall Corner 2 Tunnel
+    3300186: Wall Corner 2 Tunnel M
+    3300188: Wall Corner Fountain
+    3300190: Wall Corner.001
+    3300192: Wall Corner.002
+    3300194: Wall Cornrer Fountain Collider
+    3300196: Wall Door
+    3300198: Wall Stairs
+    3300200: Wall Stairs M
+    3300202: Wall Stairs Railing
+    3300204: Wall Stairs Railing 2
+    3300206: Wall Stairs Railing M
+    3300208: Wall Stairs Railing M 2
+    3300210: Wall Stairs Railing Up
+    3300212: Wall Stairs Railing Up M
+    3300214: Wall Stairs Up
+    3300216: Wall Stairs Up M
+    3300218: Wall with Roof
+    3300220: Wall with Roof 2
+    3300222: Wall with Roof 3
+    3300224: Wall with Roof Adapter
+    3300226: Wall with Roof Adapter 2
+    3300228: Water Fountain
+    3300230: Water Fountain Collider
+    4300000: Roof 2 Tiles Prototype.001
+    4300002: Roof 2 Tiles Prototype.002
+    4300004: Wall Corner.001
+    4300006: Wall Corner.002
+    4300008: HH Stairs Corner Collider
+    4300010: Roof 2 Corner Collider
+    4300012: Roof 2 Top 2 Collider
+    4300014: Roof 2 Top 3 Collider
+    4300016: Roof 2 Top 4 Collider
+    4300018: Roof 2 Top Collider
+    4300020: Spiral Stairs Collider
+    4300022: Spiral Stairs Collider M
+    4300024: Stairs Collider
+    4300026: Stairs Railing Collider
+    4300028: Wall Cornrer Fountain Collider
+    4300030: Water Fountain Collider
+    4300032: Roof Single Collider
+    4300034: High Wall Clock
+    4300036: High Wall Clock Minutes
+    4300038: High Wall Clock Hours
+    4300040: Enclosed Stairs Entrance Upper 3
+    4300042: Enclosed Stairs
+    4300044: Enclosed Stairs Entrance Upper 2 Steps
+    4300046: Enclosed Stairs Entrance Upper 2
+    4300048: Enclosed Stairs Lower
+    4300050: Enclosed Stairs Ceiling
+    4300052: Enclosed Stairs Entrance Upper
+    4300054: Roof Single
+    4300056: Wall Corner 2 Tunnel M
+    4300058: Wall Corner 2 Tunnel
+    4300060: High Wall Corner
+    4300062: Roof 2 Top Wall
+    4300064: Roof 2 Upper Roof Wall M
+    4300066: Roof 2 Upper Roof Wall
+    4300068: Roof 2 Top
+    4300070: Roof 2 Top 3
+    4300072: Roof 2 Top 2
+    4300074: Roof 2 Wall Corner 2
+    4300076: High Wall
+    4300078: Roof 2 Top 4
+    4300080: Roof 2 Floor Corner 2
+    4300082: Roof 2 Upper Corner
+    4300084: Roof 2 Upper Roof
+    4300086: Roof 2 Upper Corner 2
+    4300088: Roof 2 Wall Corner
+    4300090: Roof 2 Floor Wall M
+    4300092: Roof 2 Floor Corner
+    4300094: Roof 2 Floor Wall
+    4300096: Roof 2 Floor
+    4300098: Roof 2 Wall M
+    4300100: Roof 2 Wall
+    4300102: Roof 2 Corner 2
+    4300104: Roof 2 Corner
+    4300106: Roof 2
+    4300108: Wall Bench
+    4300110: Balcony
+    4300112: Spiral Stairs Railing M
+    4300114: Spiral Stairs Entrance 2 M
+    4300116: Spiral Stairs Entrance M
+    4300118: Spiral Stairs Bow 2 M
+    4300120: Spiral Stairs M
+    4300122: Spiral Stairs Bow M
+    4300124: Spiral Stairs Bow 2
+    4300126: Spiral Stairs Entrance 2
+    4300128: Spiral Stairs Bow
+    4300130: Spiral Stairs Entrance
+    4300132: Spiral Stairs Railing
+    4300134: Spiral Stairs
+    4300136: Wall Stairs Up M
+    4300138: Wall Stairs Railing Up M
+    4300140: Wall Stairs Railing M 2
+    4300142: Wall Stairs Railing M
+    4300144: Wall Stairs M
+    4300146: Wall Stairs Railing 2
+    4300148: Wall Stairs Railing Up
+    4300150: Wall Stairs Railing
+    4300152: Wall Stairs Up
+    4300154: Wall Stairs
+    4300156: Roof Corner 2
+    4300158: Railing Pillars 2
+    4300160: Wall with Roof Adapter 2
+    4300162: Railing Pillars
+    4300164: Wall with Roof Adapter
+    4300166: Pillars Corner 2
+    4300168: Pillars Corner
+    4300170: Wall with Roof 3
+    4300172: Wall with Roof 2
+    4300174: Wall with Roof
+    4300176: Pillars
+    4300178: Tunnel Corner
+    4300180: Bridge Wall
+    4300182: Tunnel
+    4300184: Wall Door
+    4300186: Wall Corner Fountain
+    4300188: Roof End
+    4300190: Roof Side
+    4300192: Roof Corner
+    4300194: Railing Wall
+    4300196: Railing Corner 2
+    4300198: Railing Wall 2
+    4300200: Railing Wall 4
+    4300202: Railing Wall 3
+    4300204: Water Fountain
+    4300206: Bridge
+    4300208: Bridge Start
+    4300210: Solid
+    4300212: Floor
+    4300214: Stairs Top
+    4300216: Stairs
+    4300218: Stairs Bottom
+    4300220: Railing
+    4300222: Railing Corner
+    4300224: Wall Corner 2
+    4300226: Wall Corner
+    4300228: Wall
+    4300230: Rig
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
