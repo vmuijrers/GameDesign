@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class GunController : MonoBehaviour
 {
     public Transform gunPosition;
 
-    private Gun currentGun;
+    private Gun currentGun = null;
 
     // Start is called before the first frame update
     void Start()

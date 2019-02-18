@@ -1496,7 +1496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 7854322716931727218, guid: 7e6627ee8e1e5f24d89a3617fc179a44,
     type: 3}
-  shootingPosition: {fileID: 1112105049}
+  shootingTransform: {fileID: 1112105049}
   shootingForce: 2000
 --- !u!135 &1906326369
 SphereCollider:
